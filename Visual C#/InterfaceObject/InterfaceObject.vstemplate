@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>InterfaceObject</Name>
+    <Description>InterfaceObject</Description>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+    <TemplateID>Microsoft.CSharp.InterfaceObject</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>91</SortOrder>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Object.cs</DefaultName>
+    <CreateNewFolder>1</CreateNewFolder>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Interface/I$fileinputname$.cs">IObject.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Impl/$fileinputname$.cs">Object.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

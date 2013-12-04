@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>BussinessModelClass</Name>
+    <Description>BussinessModelClass</Description>
+    <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4515" />
+    <TemplateID>Microsoft.CSharp.BussinessModelClass</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>91</SortOrder>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>BussinessModelClass.cs</DefaultName>
+    <CreateNewFolder>1</CreateNewFolder>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">BussinessModelClass.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Property/$fileinputname$.Property.cs">BussinessModelClass.Property.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Action/$fileinputname$.Action.cs">BussinessModelClass.Action.cs</ProjectItem>    
+  </TemplateContent>
+</VSTemplate>
