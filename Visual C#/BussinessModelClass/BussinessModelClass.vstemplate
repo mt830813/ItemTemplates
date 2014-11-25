@@ -13,8 +13,8 @@
     <CreateNewFolder>1</CreateNewFolder>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.cs">BussinessModelClass.cs</ProjectItem>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Property/$fileinputname$.Property.cs">BussinessModelClass.Property.cs</ProjectItem>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Action/$fileinputname$.Action.cs">BussinessModelClass.Action.cs</ProjectItem>    
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$/$fileinputname$.cs">BussinessModelClass.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$/$fileinputname$.Property.cs">BussinessModelClass.Property.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$/$fileinputname$.Action.cs">BussinessModelClass.Action.cs</ProjectItem>    
   </TemplateContent>
 </VSTemplate>
